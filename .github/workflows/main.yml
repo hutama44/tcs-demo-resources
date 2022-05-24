@@ -39,3 +39,6 @@ jobs:
           env-id: ${{ secrets.ACCURICS_ENV_ID }}
           url: https://cloud.tenable.com/cns
           # Optional args
+          scan-mode: “scan”
+          fail-on-violations: false
+
